@@ -2,6 +2,8 @@ import 'package:bwa_cozy/theme.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
+  const SplashPage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,14 +26,14 @@ class SplashPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Find Cozy House\nto Stay and Happy',
+              "Find Cozy House\nto Stay and Happy",
               style: blackTextStyle.copyWith(fontSize: 24),
             ),
             SizedBox(
               height: 10,
             ),
             Text(
-              'Stop membuang banyak waktu\npada tempat yang tidak habitable',
+              "Stop membuang banyak waktu\npada tempat yang tidak habitable",
               style: greyTextStyle.copyWith(fontSize: 16),
             ),
             SizedBox(
